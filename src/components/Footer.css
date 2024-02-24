@@ -1,0 +1,44 @@
+/* Footer.css Improved */
+.footer {
+  background: linear-gradient(145deg, #f2f2f2, #e6e6e6); /* Subtle gradient background */
+  padding: 30px 20px; /* Adjusted padding */
+  text-align: center; /* Center content */
+  position: fixed; /* Keep footer at the bottom */
+  bottom: 0; /* Align bottom */
+  left: 0; /* Ensure full width */
+  right: 0; /* Ensure full width */
+  width: 100%; /* Full width */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Add shadow for depth */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Better distribution of space */
+  align-items: center;
+  flex-wrap: wrap; /* Wrap content on smaller screens */
+  max-width: 1200px; /* Maximum width of content */
+  margin: 0 auto; /* Centering content */
+  padding: 0 20px; /* Padding on sides */
+}
+
+.footer-content > * {
+  flex: 1; /* Flexibility for children */
+  margin: 10px; /* Spacing around items */
+}
+
+a {
+  color: #007bff; /* Interactive element color */
+  text-decoration: none; /* No underline */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+a:hover {
+  color: #0056b3; /* Color change on hover */
+}
+
+.copyright {
+  font-size: 0.9rem; /* Adjusted font size */
+  color: #666; /* Improved readability */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern font family */
+}
